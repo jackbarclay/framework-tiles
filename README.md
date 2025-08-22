@@ -4,4 +4,4 @@ A web-based tile designer for customizing the Framework Laptop desktop tiles. Cr
 
 ## Live Demo
 
-Visit the live app: [Framework Desktop Tile Designer](https://jackbarclay.github.io/framework-tiles/)
+Visit the live app: [Framework Desktop Tile Designer](https://jackbarclay.github.io/framework-tiles/index.html)
