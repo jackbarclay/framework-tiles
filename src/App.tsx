@@ -439,11 +439,11 @@ export default function App() {
                   }}
                   title={t.name}
                 >
-                  <img
-                    src={`/assets/tiles/${t.id}.jpg`}
-                    alt={t.name}
-                    className="w-full aspect-square object-cover"
-                  />
+                <img
+                  src={`./assets/tiles/${t.id}.jpg`}
+                  alt={t.name}
+                  className="w-full aspect-square object-cover"
+                />
                   <span className="absolute bottom-0 left-0 right-0 text-[9px] text-center bg-white/90 py-0.5 font-medium line-clamp-1">
                     {t.name}
                   </span>
@@ -457,7 +457,7 @@ export default function App() {
         <main className="flex-1 p-6 flex items-center justify-center">
           <div ref={shotRef} className="relative max-w-4xl w-full">
             <img
-              src="/assets/framework-laptop-bg.jpg"
+              src="./assets/framework-laptop-bg.jpg"
               alt="Framework Desktop Background"
               className="w-full rounded-2xl object-contain select-none"
             />
@@ -485,7 +485,7 @@ export default function App() {
                     tabIndex={0}
                   >
                     <img
-                      src={`/assets/tiles/${tile?.id}.jpg`}
+                      src={`./assets/tiles/${tile?.id}.jpg`}
                       alt={tile?.name}
                       className="w-full h-full object-cover"
                       style={{ transform: `rotate(${cell?.rot || 0}deg)` }}
